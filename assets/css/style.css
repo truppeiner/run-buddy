@@ -1,8 +1,9 @@
-/* removes default margin and padding */
+/* removes default aspects of code */
 /* (*) is considered a universal selector */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* font and color for body */
@@ -49,4 +50,35 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
 /* end of styles to <header> */
+/* begin styles for <footer> */
+
+/* changes background width and padding */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+/* adjusts footer h2 */
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* adjusts footer div */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* changes footer color */
+footer a {
+    color: #024e76;
+}
+
+/* end styles for footer */
