@@ -40,16 +40,19 @@ header nav {
     margin: 7px 0;
 }
 
-/* puts navigation links in line instead of column */
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* changes margins and font of navigation links*/
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* HEADER END */
